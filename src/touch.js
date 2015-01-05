@@ -161,7 +161,8 @@
                   touch = {}
                 }, 250)
               }
-            }, 0)
+              //chenge by zyh : if event fires after 0ms,the :active effect may not be seen,so,set it to be 30ms
+            }, 30)
           } else {
             touch = {}
           }
